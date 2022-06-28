@@ -40,9 +40,9 @@ workflows:
   workflow:
     jobs:
       - create_infrastructure:
-           context : 
+           context: 
              - CLI
       - smoke_test
-          requires : 
-            - create_infrastructure
+            requires: 
+             - create_infrastructure
 
