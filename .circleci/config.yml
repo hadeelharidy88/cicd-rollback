@@ -39,7 +39,9 @@ jobs:
 workflows:
   workflow:
     jobs:
-      - create_infrastructure
+      - create_infrastructure:
+           context : 
+             - CLI
       # - smoke_test
       #     requires : create_infrastructure
 
