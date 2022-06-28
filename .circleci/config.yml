@@ -37,7 +37,7 @@ jobs:
   #       when : on fail 
 
 workflows:
-    workflow:
+  workflow:
     jobs:
       - create_infrastructure
       # - smoke_test
